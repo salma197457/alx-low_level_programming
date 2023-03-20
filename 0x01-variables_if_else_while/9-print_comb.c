@@ -6,16 +6,24 @@
 int main(void)
 {
 	int i;
+	int o;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 48; i < 57; i++)
 	{
-		putchar(i);
-		if (i == 57)
-		{
-			continue;
-		}
-		putchar(',');
-		putchar(' ');
+	for (o = i + 1; o <= 57; o++)
+	{
+	if (i != 0)
+	{
+	putchar(i);
+	putchar(o);
+	if (i == 56 && o == 57)
+	{
+	continue;
+	}
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
