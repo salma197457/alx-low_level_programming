@@ -10,15 +10,16 @@ int _abs(int x)
 
 	if (x > 0)
 	{
-		_putchar(x);
+		return (x);
 	}
 	else if (x == 0)
 	{
-		_putchar(0);
+		return (0);
 	}
 	else
 	{
 		y = x / -1;
-		_putchar(y);
+		return (y);
 	}
+	_putchar('\n');
 }
