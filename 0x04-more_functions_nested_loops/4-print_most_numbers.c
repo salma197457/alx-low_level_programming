@@ -3,18 +3,20 @@
  * print_numbers - function
  * Return: 0
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-	int n = 48;
+	int n = 0;
 
-	 while (n <= 57)
-	{
-		_putchar(n);
-		_putchar('\n');
+	 for (; n <= 9; n++)
+	 {
 		if (n == 2 || n == 4)
 		{
 			continue;
 		}
-		n++;
-	}
+		else
+		{
+			_putchar(n + '0');
+		}
+	 }
+	_putchar('\n');
 }
