@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strstr - the start
- * @haystack: input no 1 
- * @needle: input o 2
+ * @haystack: input no 1
+ * @needle: input no 2
  * Return: returns0
  */
 char *_strstr(char *haystack, char *needle)
@@ -23,3 +23,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
+
