@@ -8,11 +8,12 @@ void rev_string(char *s)
 {
 	int x = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-	_putchar(*str);
+	_putchar(*s);
 	str++;
 	}
+
 	while (s[x] != '\0')
 	{
 	x++;
